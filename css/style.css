@@ -1,0 +1,157 @@
+body {
+    background: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav i {
+    font-size: 1.5em;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+
+header nav a {
+    font-size: 1.3em;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Dropdown */
+
+.menu {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.menu:hover {
+    background-color: #d1d1d1;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 36px;
+    border-radius: 50%;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 30px 0 0 -25px;
+    list-style-type: none;
+}
+
+.dd-input+.dd-menu {
+    display: none;
+}
+
+.dd-input:checked+.dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 10px 20px;
+    white-space: nowrap;
+    border: 4px double rgb(167, 167, 167);
+    background-color: #f3f3f3;
+}
+
+.dd-menu li:hover a,
+.dd-menu li:hover {
+    background-color: #d1d1d1;
+    color: black;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 30px 50px;
+}
+
+/* Section */
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+article {
+    background: #FFF;
+    border-radius: 20px;
+    width: 200px;
+    height: 500px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+/* Version mobile */
+
+@media screen and (max-width: 767.5px) {
+
+
+    .dropdown {
+        left: 0px;
+        top: 0px;
+    }
+
+    .dd-menu {
+        margin: 70px 0 0 0;
+    }
+
+    .dd-menu li {
+        padding: 10px 20px;
+        white-space: nowrap;
+        border: 4px double rgb(167, 167, 167);
+    }
+
+}
