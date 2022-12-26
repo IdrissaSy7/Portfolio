@@ -12,86 +12,107 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <label class="dropdown">
 
-    <div id="loader">
+                <div class="menu">
+                    <i class="fa-solid fa-bars "></i>
+                </div>
 
-        <header>
-            <nav>
-                <label class="dropdown">
+                <input type="checkbox" class="dd-input" id="test">
 
-                    <div class="menu">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
+                <ul class="dd-menu">
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/Booki" target="_blank">Projet 1 Booki</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/Ohmyfood" target="_blank">Projet 2 Ohmyfood</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/La-Panthere" target="_blank">Projet 3 La Panthère</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/" target="_blank">Projet 4 XXXXX</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/" target="_blank">Projet 5 XXXXX</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IdrissaSy7/" target="_blank">Projet 6 XXXXX</a>
+                    </li>
+                    <li>
+                        <a href="mailto:Idrissa.sy78@gmail.com">Contact</a>
+                    </li>
+                </ul>
 
-                    <input type="checkbox" class="dd-input" id="test">
+            </label>
+        </nav>
 
-                    <ul class="dd-menu">
-                        <li>
-                            <a href="https://idrissasy7.github.io/Booki/" target="_blank">Projet 1 Booki</a>
-                        </li>
-                        <li>
-                            <a href="https://idrissasy7.github.io/Ohmyfood/" target="_blank">Projet 2 Ohmyfood</a>
-                        </li>
-                        <li>
-                            <a href="https://idrissasy7.github.io/La-Panthere/" target="_blank">Projet 3 La Panthère</a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">Projet 4 XXXXX</a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">Projet 5 XXXXX</a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">Projet 6 XXXXX</a>
-                        </li>
-                    </ul>
-
-                </label>
-            </nav>
-
-            <h1>Portfolio Idrissa SY</h1>
-
-            <img src="images/profil.jpg" alt="Photo Idrissa">
-
-        </header>
-
-        <section>
-            <article id="Booki">
-                <a href="https://idrissasy7.github.io/Booki/" target="_blank">
-                    <img src="images/booki.png" alt="Booki>">
-                </a>
-            </article>
-
-            <article id="Ohmyfood">
-                <a href="https://idrissasy7.github.io/Ohmyfood/" target="_blank">
-                    <img src="images/ohmyfood.png" alt="Ohmyfood>">
-                </a>
-            </article>
-
-            <article id="Lapanthere">
-                <a href="https://idrissasy7.github.io/La-Panthere/" target="_blank">
-                    <img src="images/lapanthere.png" alt="La Panthère>">
-                </a>
-            </article>
-
-            <article id="Projet4">
-                <a href="" target="_blank">
-
-                </a>
-            </article>
-
-            <article id="Projet5">
-
-            </article>
-
-            <article id="Projet6">
-
-            </article>
-
-        </section>
+        <h1>Portfolio Idrissa SY</h1>
 
 
-    </div>
+        <img src="images/profil.jpg" alt="Photo Idrissa">
+
+    </header>
+
+    <section>
+        <article id="Booki">
+            <a href="https://idrissasy7.github.io/Booki/" target="_blank">
+                <img src="images/booki.png" alt="Booki>">
+            </a>
+        </article>
+
+        <article id="Ohmyfood">
+            <a href="https://idrissasy7.github.io/Ohmyfood/" target="_blank">
+                <img src="images/ohmyfood.png" alt="Ohmyfood>">
+            </a>
+        </article>
+
+        <article id="Lapanthere">
+            <a href="https://idrissasy7.github.io/La-Panthere/" target="_blank">
+                <img src="images/lapanthere.png" alt="La Panthère>">
+            </a>
+        </article>
+
+        <article id="Projet4">
+            <a href="" target="_blank">
+
+            </a>
+        </article>
+
+        <article id="Projet5">
+
+        </article>
+
+        <article id="Projet6">
+
+        </article>
+
+    </section>
+
+    <section id="Contact">
+        <div class="container">
+            <h2>Formulaire de contact</h2>
+            <form action="/action_page.php">
+                <label for="fname">Nom & prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+
+    </section>
 </body>
 
 </html>
