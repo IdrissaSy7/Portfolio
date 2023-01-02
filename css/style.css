@@ -67,7 +67,6 @@ header img {
     /* fallback for old browsers */
     transition-duration: 400ms;
     text-shadow: 0px 2px 4px black;
-
 }
 
 .deroulant {
@@ -149,7 +148,7 @@ article a img:hover {
     transition-duration: 400ms;
 }
 
-article p {
+article h2 {
     color: #E5E5BE;
     font-size: 20px;
     font-weight: bolder;
