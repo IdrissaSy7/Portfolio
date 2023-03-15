@@ -1,0 +1,29 @@
+.social-network {
+  position: absolute;
+  right: 1em;
+  top: 0;
+  width: 30%;
+  font-size: 1.3em;
+
+  ul {
+    display: flex;
+    width: 100%;
+    min-width: 100px;
+    justify-content: flex-end;
+
+    @media screen and (max-width : 767px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    a {
+      padding: 1em;
+      transition: 0.3s ease-out;
+      text-decoration: none;
+
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}

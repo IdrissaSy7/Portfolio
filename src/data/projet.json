@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "right": "2",
+    "title": "Booki",
+    "date": "Octobre 2022",
+    "languages": ["HTML", "CSS"],
+    "img": "./assets/img/Booki/Booki1.png",
+    "link": "https://projetbooki.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/Booki",
+    "pictures": [
+      "../assets/img/Booki/Booki1.png",
+      "../assets/img/Booki/Booki2.png"
+    ]
+  },
+  {
+    "id": 2,
+    "left": "1",
+    "right": "3",
+    "title": "Ohmyfood",
+    "date": "Novembre 2022",
+    "languages": ["HTML", "CSS"],
+    "img": "./assets/img/ohmyfood/ohmyfood1.png",
+    "link": "https://projetohmyfood.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/Ohmyfood",
+    "pictures": [
+      "../assets/img/ohmyfood/ohmyfood1.png",
+      "../assets/img/ohmyfood/ohmyfood2.png",
+      "../assets/img/ohmyfood/ohmyfood3.png",
+      "../assets/img/ohmyfood/ohmyfood4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "left": "2",
+    "right": "4",
+    "title": "La Panthère",
+    "date": "Décembre 2022",
+    "languages": ["HTML", "CSS", "JS"],
+    "img": "./assets/img/lapanthere/panthere1.png",
+    "link": "https://projetpanthere.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/La-Panthere",
+    "pictures": [
+      "../assets/img/lapanthere/panthere1.png",
+      "../assets/img/lapanthere/panthere2.png",
+      "../assets/img/lapanthere/panthere4.png",
+      "../assets/img/lapanthere/panthere5.png",
+      "../assets/img/lapanthere/panthere6.png"
+    ]
+  },
+  {
+    "id": 4,
+    "left": "3",
+    "right": "5",
+    "title": "Kanap",
+    "date": "Janvier 2023",
+    "languages": ["JS", "NodeJS"],
+    "img": "./assets/img/kanap/kanap1.png",
+    "linkgithub": " https://github.com/IdrissaSy7/Kanap",
+    "pictures": [
+      "../assets/img/kanap/kanap1.png",
+      "../assets/img/kanap/kanap2.png",
+      "../assets/img/kanap/kanap3.png",
+      "../assets/img/kanap/kanap4.png"
+    ]
+  },
+  {
+    "id": 5,
+    "left": "4",
+    "right": "6",
+    "title": "Hot Takes",
+    "date": "Février 2023",
+    "languages": ["JS", "NodeJS"],
+    "img": "./assets/img/hottakes/hottakes4.png",
+    "linkgithub": "https://github.com/IdrissaSy7/Hot-Takes",
+    "pictures": [
+      "../assets/img/hottakes/hottakes1.png",
+      "../assets/img/hottakes/hottakes2.png",
+      "../assets/img/hottakes/hottakes3.png",
+      "../assets/img/hottakes/hottakes4.png",
+      "../assets/img/hottakes/hottakes5.png"
+    ]
+  },
+  {
+    "id": 6,
+    "left": "5",
+    "right": "7",
+    "title": "Kasa",
+    "date": "Mars 2023",
+    "languages": ["HTML", "SASS", "ReactJS"],
+    "img": "./assets/img/kasa/kasa1.png",
+    "link": "https://projetkasa.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/Kasa",
+    "pictures": [
+      "../assets/img/kasa/kasa1.png",
+      "../assets/img/kasa/kasa2.png",
+      "../assets/img/kasa/kasa3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "left": "6",
+    "title": "Syelec",
+    "date": "Mars 2023",
+    "languages": ["HTML", "CSS", "JS"],
+    "img": "./assets/img/syelec/syelec1.png",
+    "link": "https://syelec.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/SYELEC",
+    "pictures": [
+      "../assets/img/syelec/syelec1.png",
+      "../assets/img/syelec/syelec2.png",
+      "../assets/img/syelec/syelec3.png",
+      "../assets/img/syelec/syelec4.png",
+      "../assets/img/syelec/syelec5.png"
+    ]
+  }
+]

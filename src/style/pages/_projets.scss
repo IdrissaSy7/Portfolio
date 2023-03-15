@@ -1,0 +1,58 @@
+.projetCentre {
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p,
+    a {
+      margin: 10px;
+    }
+
+    #lien {
+      display: flex;
+      flex-direction: row;
+
+      a {
+        // margin: 0px 20px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    #date {
+      font-weight: bolder;
+    }
+
+    h2 {
+      font-size: 1.8em;
+    }
+
+    .langue {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+
+      p {
+        font-size: 1.2em;
+        border-radius: 20px;
+        width: 100px;
+        text-align: center;
+
+        @media screen and (max-width: 767px) {
+          font-size: 1em;
+          margin: 5px;
+        }
+      }
+    }
+
+    .projetleftright {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+}

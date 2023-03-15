@@ -1,0 +1,98 @@
+$color-1: #fff;
+$color-2: #35ae85;
+$color-3: #f6f6f6;
+$color-4: #000;
+$color-5: #4d9ba4;
+$html: rgb(255, 55, 0);
+$css: rgb(27, 136, 209);
+$sass: rgb(180, 24, 118);
+$js: rgb(255, 233, 62);
+$nodejs: rgb(37, 163, 50);
+$reactjs: rgb(29, 224, 235);
+
+@font-face {
+  font-family: font-1;
+  src: url(../style/fonts/Signika-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $color-1;
+  font-family: "font-1", sans-serif;
+  list-style-type: none;
+
+  a,
+  ul {
+    color: $color-4;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $color-4;
+    }
+  }
+
+  .title {
+    font-size: 3.5em;
+    color: $color-2;
+    position: absolute;
+    top: 60px;
+    left: 45%;
+    text-align: center;
+
+    @media screen and (max-width: 767px) {
+      font-size: 2.5em;
+      position: initial;
+      margin-bottom: -120px;
+      margin-top: 30px;
+    }
+  }
+
+  .home,
+  .cardContainer,
+  .projetCentre,
+  .contactContainer {
+    background-color: $color-3;
+    margin: 20px 40px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 200px;
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      background-color: $color-1;
+      margin: 150px 0px 15px 0px;
+    }
+  }
+
+  .html {
+    background-color: $html;
+  }
+
+  .css {
+    background-color: $css;
+  }
+
+  .sass {
+    background-color: $sass;
+  }
+
+  .js {
+    background-color: $js;
+  }
+
+  .nodejs {
+    background-color: $nodejs;
+  }
+
+  .reactjs {
+    background-color: $reactjs;
+  }
+}

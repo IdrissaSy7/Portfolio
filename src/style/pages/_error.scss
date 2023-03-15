@@ -1,0 +1,40 @@
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $color-2;
+  text-align: center;
+
+  //   404
+  h2 {
+    font-size: 15em;
+    font-weight: bolder;
+
+    @media screen and (max-width: 767px) {
+      font-size: 4em;
+      margin-top: 90px;
+    }
+  }
+
+  //   Texte
+  p {
+    font-size: 1.5em;
+    margin: 50px 0px;
+
+    @media screen and (max-width: 767px) {
+      font-size: 1em;
+    }
+  }
+
+  a {
+    color: $color-2;
+    list-style-type: none;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $color-2;
+    }
+  }
+}

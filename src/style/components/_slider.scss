@@ -1,0 +1,24 @@
+.carousel-root {
+  .carousel-slider {
+    border: 1px solid $color-4;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+    }
+  }
+
+  .carousel .thumb {
+    cursor: pointer;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .control-dots {
+    background-color: #0000004b;
+    width: 130px;
+    border-radius: 20px;
+  }
+}
