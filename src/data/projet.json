@@ -100,6 +100,7 @@
   {
     "id": 7,
     "left": "6",
+    "right": "8",
     "title": "Syelec",
     "date": "Mars 2023",
     "languages": ["HTML", "CSS", "JS"],
@@ -112,6 +113,22 @@
       "../assets/img/syelec/syelec3.png",
       "../assets/img/syelec/syelec4.png",
       "../assets/img/syelec/syelec5.png"
+    ]
+  },
+  {
+    "id": 8,
+    "left": "7",
+    "title": "Country",
+    "date": "Mars 2023",
+    "languages": ["HTML", "SASS", "ReactJS"],
+    "img": "./assets/img/country/country1.png",
+    "link": "https://projetcountry.netlify.app/country",
+    "linkgithub": "https://github.com/IdrissaSy7/Country",
+    "pictures": [
+      "../assets/img/country/country1.png",
+      "../assets/img/country/country2.png",
+      "../assets/img/country/country3.png",
+      "../assets/img/country/country4.png"
     ]
   }
 ]
