@@ -11,7 +11,7 @@
     min-width: 100px;
     justify-content: flex-end;
 
-    @media screen and (max-width : 767px) {
+    @media screen and (max-width: 767px) {
       flex-direction: column-reverse;
       align-items: center;
     }
