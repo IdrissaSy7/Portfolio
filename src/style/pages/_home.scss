@@ -1,77 +1,91 @@
 .home {
   flex-direction: column;
   align-items: center;
-  height: 400px;
+  height: 500px;
 
-  h2 {
-    font-size: 3em;
-    animation: fadein 400ms;
-  }
-
-  h3 {
-    font-size: 1.8em;
-    animation: fadein 800ms;
-    margin-bottom: 20px;
-  }
-
-  ul {
-    font-size: 1.5em;
+  .content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
-    li {
-      border-radius: 20px;
-      width: 130px;
-      text-align: center;
-      margin-right: 15px;
-      margin-bottom: 15px;
+    h2 {
+      font-size: 3em;
     }
 
-    .html {
-      animation: fadein 2000ms;
+    h3 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
     }
 
-    .css {
-      animation: fadein 2200ms;
+    ul {
+      font-size: 1.5em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        border-radius: 20px;
+        width: 130px;
+        text-align: center;
+        margin-right: 15px;
+        margin-bottom: 15px;
+      }
+
+      .html {
+        animation: fadeup 600ms;
+      }
+
+      .css {
+        animation: fadeup 800ms;
+      }
+
+      .sass {
+        animation: fadeup 1000ms;
+      }
+
+      .js {
+        animation: fadeup 1200ms;
+      }
+
+      & li:nth-child(5) {
+        animation: fadeup 1400ms;
+      }
+
+      & li:nth-child(6) {
+        animation: fadeup 1600ms;
+      }
     }
 
-    .sass {
-      animation: fadein 2400ms;
-    }
+    /* Apparition progressive */
 
-    .js {
-      animation: fadein 2600ms;
-    }
+    @keyframes fadeup {
+      0% {
+        opacity: 0;
+      }
 
-    & li:nth-child(5) {
-      animation: fadein 2800ms;
-    }
+      90% {
+        opacity: 0;
+      }
 
-    & li:nth-child(6) {
-      animation: fadein 3000ms;
+      99% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(200px);
+      }
     }
   }
 
-  /* Apparition progressive */
+  img {
+    width: auto;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+  }
 
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-
-    90% {
-      opacity: 0;
-    }
-
-    99.9% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateX(-200px);
-    }
+  @media screen and (max-width: 767px) {
+    flex-direction: column-reverse;
   }
 }

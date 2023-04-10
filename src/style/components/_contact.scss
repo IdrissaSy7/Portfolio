@@ -55,7 +55,10 @@
   }
 
   .contactInfos {
-    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
     h2 {
       margin-bottom: 15px;
     }
@@ -64,6 +67,23 @@
       margin-right: 10px;
       @media screen and (max-width: 767px) {
         margin-bottom: 50px;
+        flex-direction: column-reverse;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column-reverse;
+      margin-top: -20px;
+    }
+
+    img {
+      width: auto;
+      height: 220px;
+      margin: 0;
+      padding: 0;
+
+      @media screen and (max-width: 767px) {
+        height: 170px;
       }
     }
   }
