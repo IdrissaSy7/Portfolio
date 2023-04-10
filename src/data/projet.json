@@ -157,6 +157,9 @@
     "img": "../assets/img/SpaceInvaders/space1.png",
     "link": "https://projetspaceinvaders.netlify.app/",
     "linkgithub": "https://github.com/IdrissaSy7/SpaceInvaders",
-    "pictures": ["../assets/img/SpaceInvaders/space1.png"]
+    "pictures": [
+      "../assets/img/SpaceInvaders/space1.png",
+      "../assets/img/SpaceInvaders/space2.png"
+    ]
   }
 ]
