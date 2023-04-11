@@ -56,6 +56,7 @@
     "date": "Janvier 2023",
     "languages": ["JS", "NodeJS"],
     "img": "./assets/img/kanap/kanap1.png",
+    "link": " https://projetkanapsy.netlify.app/",
     "linkgithub": " https://github.com/IdrissaSy7/Kanap",
     "pictures": [
       "../assets/img/kanap/kanap1.png",
