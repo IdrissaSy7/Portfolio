@@ -73,7 +73,6 @@
     "date": "Février 2023",
     "languages": ["JS", "NodeJS"],
     "img": "./assets/img/hottakes/hottakes4.png",
-    "link": "https://projethottakes.netlify.app/",
     "linkgithub": "https://github.com/IdrissaSy7/Hot-Takes",
     "pictures": [
       "../assets/img/hottakes/hottakes1.png",
