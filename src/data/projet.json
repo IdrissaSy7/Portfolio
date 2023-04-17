@@ -152,6 +152,7 @@
   {
     "id": 10,
     "left": "9",
+    "right": 11,
     "title": "Space Invaders",
     "date": "Avril 2023",
     "languages": ["JS"],
@@ -161,6 +162,22 @@
     "pictures": [
       "../assets/img/SpaceInvaders/space1.png",
       "../assets/img/SpaceInvaders/space2.png"
+    ]
+  },
+  {
+    "id": 11,
+    "left": "10",
+    "title": "Gaming Campus",
+    "date": "Avril 2023",
+    "languages": ["HTML", "CSS"],
+    "img": "../assets/img/gamingcampus/gaming1.png",
+    "link": "https://projetgamingcampus.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/Gaming-Campus",
+    "pictures": [
+      "../assets/img/gamingcampus/gaming1.png",
+      "../assets/img/gamingcampus/gaming2.png",
+      "../assets/img/gamingcampus/gaming3.png",
+      "../assets/img/gamingcampus/gaming4.png"
     ]
   }
 ]
