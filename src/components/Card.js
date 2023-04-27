@@ -18,11 +18,11 @@ const Card = () => {
       <div className="filters">
         <h2>Filtres</h2>
         <ul>
-          <li>
-            {selectedFilter != "ALL" && (
-              <p onClick={() => setSelectedFilter("ALL")}>Annuler</p>
-            )}
-          </li>
+          {selectedFilter != "ALL" && (
+            <li className="annuler" onClick={() => setSelectedFilter("ALL")}>
+              Annuler
+            </li>
+          )}
           <li
             className={selectedFilter === "HTML" ? "html active" : "html"}
             onClick={() => setSelectedFilter("HTML")}
