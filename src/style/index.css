@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,7 +24,7 @@ body a:hover {
   text-decoration-color: #000;
 }
 body .title {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   color: #35ae85;
   position: absolute;
   top: 60px;
@@ -32,7 +33,7 @@ body .title {
 }
 @media screen and (max-width: 767px) {
   body .title {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     position: initial;
     margin-bottom: -120px;
     margin-top: 30px;
@@ -86,22 +87,22 @@ body .reactjs {
   text-align: center;
 }
 .error h2 {
-  font-size: 15em;
+  font-size: 15rem;
   font-weight: bolder;
 }
 @media screen and (max-width: 767px) {
   .error h2 {
-    font-size: 4em;
+    font-size: 4rem;
     margin-top: 90px;
   }
 }
 .error p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin: 50px 0px;
 }
 @media screen and (max-width: 767px) {
   .error p {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 .error a {
@@ -126,14 +127,14 @@ body .reactjs {
   /* Apparition progressive */
 }
 .home .content h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 .home .content h3 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   margin-bottom: 20px;
 }
 .home .content ul {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -212,7 +213,7 @@ body .reactjs {
   font-weight: bolder;
 }
 .projetCentre div h2 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 .projetCentre div .langue {
   display: flex;
@@ -220,14 +221,14 @@ body .reactjs {
   flex-direction: row;
 }
 .projetCentre div .langue p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   border-radius: 20px;
   width: 100px;
   text-align: center;
 }
 @media screen and (max-width: 767px) {
   .projetCentre div .langue p {
-    font-size: 1em;
+    font-size: 1rem;
     margin: 5px;
   }
 }
@@ -236,6 +237,72 @@ body .reactjs {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+}
+
+.filters {
+  position: fixed;
+  left: 20px;
+  top: 30%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .filters {
+    position: relative;
+    left: 0;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
+.filters h2 {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+  .filters h2 {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.filters ul li {
+  border-radius: 20px;
+  width: 130px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media screen and (max-width: 767px) {
+  .filters ul li {
+    margin-right: 25px;
+  }
+}
+.filters ul li:hover, .filters ul li.active {
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+}
+.filters ul li:first-child {
+  color: #000;
+  text-shadow: none;
+}
+.filters ul li:first-child:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .filters ul li:first-child {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+  }
 }
 
 .cardContainer {
@@ -263,10 +330,10 @@ body .reactjs {
   display: flex;
   flex-direction: column-reverse;
   position: relative;
+  transition: 0.3s ease-in-out;
 }
 .cardContainer .card:hover {
   box-shadow: 0px 0px 6px #000;
-  transition-duration: 0.3s;
 }
 @media screen and (max-width: 1023px) {
   .cardContainer .card {
