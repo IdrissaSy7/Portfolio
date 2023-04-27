@@ -167,6 +167,7 @@
   {
     "id": 11,
     "left": "10",
+    "right": "12",
     "title": "Gaming Campus",
     "date": "Avril 2023",
     "languages": ["HTML", "CSS"],
@@ -178,6 +179,22 @@
       "../assets/img/gamingcampus/gaming2.png",
       "../assets/img/gamingcampus/gaming3.png",
       "../assets/img/gamingcampus/gaming4.png"
+    ]
+  },
+  {
+    "id": 12,
+    "left": "11",
+    "title": "La Montagne",
+    "date": "Avril 2023",
+    "languages": ["HTML", "SASS"],
+    "img": "../assets/img/lamontagne/lamontagne1.png",
+    "link": "https://projetlamontagne.netlify.app/",
+    "linkgithub": "https://github.com/IdrissaSy7/La-Montagne",
+    "pictures": [
+      "../assets/img/lamontagne/lamontagne1.png",
+      "../assets/img/lamontagne/lamontagne2.png",
+      "../assets/img/lamontagne/lamontagne3.png",
+      "../assets/img/lamontagne/lamontagne4.png"
     ]
   }
 ]
